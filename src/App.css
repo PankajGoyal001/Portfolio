@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+body{
+  @apply bg-[#212428]
+}
+
+
+.container{
+  @apply max-w-[1480px] w-full px-5 m-auto
+}
+
+.active{
+  color: red;
+}
+
+
+@layer utilities {
+  .nav{
+    @apply relative hover:text-red-500 ;
+  }
+  .nav::after{
+    @apply content-[''] bg-red-500 
+    rounded-xl duration-500
+  }
+  .nav:hover::after{
+    @apply w-[100%]
+  }
+}
