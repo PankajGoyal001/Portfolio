@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import ContactImg from "../assets/Images/contactImg.png";
+import ContactImg from "../../public/Images/contactImg.png";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
@@ -45,13 +45,13 @@ const Contact = () => {
               <h3 data-aos="fade-right" className='text-xl text-white font-semibold tracking-[0.5px]'>FIND ME IN</h3>
               <div  data-aos="fade-up" className="flex cursor-pointer gap-4">
                   <a href="https://www.facebook.com/" target='_blank'> 
-                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="src/assets/images/facebook.svg" alt="facebook" />
+                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="public/Images/facebook.svg" alt="facebook" />
                   </a>
                   <a href="https://www.instagram.com/accounts/login/?hl=en" target='_blank'>
-                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="src/assets/images/instagram.svg" alt="instagram" />
+                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="public/Images/instagram.svg" alt="instagram" />
                   </a>
                   <a href="https://www.linkedin.com/feed/" target='_blank'>
-                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="src/assets/images/linkedin.svg" alt="linkedin" />
+                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="public/Images/linkedin.svg" alt="linkedin" />
                   </a>
                 </div>
               </div>

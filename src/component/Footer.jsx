@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import logo from "../assets/Images/logo.jpg";
+import logo from "../../public/Images/logo.jpg";
 import footerData from "./Json/footer.json";
 import { Link } from 'react-router-dom';
 import Aos from "aos";
@@ -37,9 +37,9 @@ const Footer = () => {
                             <h2 data-aos="fade-right" className='text-amber-50 sm:text-3xl text-2xl font-semibold '>PANKAJ</h2>
                         </div>
                         <div  data-aos="fade-right" className="flex items-center relative gap-3 sm:gap-5">
-                            <img className='sm:max-w-16 max-w-12 bg-[#1a1c1f] rounded-sm w-full' src="src/assets/images/facebook.svg" alt="facebook" />
-                            <img className='sm:max-w-16 max-w-12 bg-[#1a1c1f] rounded-sm w-full' src="src/assets/images/instagram.svg" alt="instagram" />
-                            <img className='sm:max-w-16 max-w-12 bg-[#1a1c1f] rounded-sm w-full' src="src/assets/images/linkedin.svg" alt="linkedin" />
+                            <img className='sm:max-w-16 max-w-12 bg-[#1a1c1f] rounded-sm w-full' src="public/Images/facebook.svg" alt="facebook" />
+                            <img className='sm:max-w-16 max-w-12 bg-[#1a1c1f] rounded-sm w-full' src="public/Images/instagram.svg" alt="instagram" />
+                            <img className='sm:max-w-16 max-w-12 bg-[#1a1c1f] rounded-sm w-full' src="public/Images/linkedin.svg" alt="linkedin" />
                         </div>
                     </div>
                     {

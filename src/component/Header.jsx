@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import logo from "../assets/Images/logo.jpg";
+import logo from "../../public/Images/logo.jpg";
 import { Link, NavLink } from 'react-router-dom';
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -69,7 +69,7 @@ const Header = () => {
             <p className={`${Click ? "rotate-45 absolute " : ""} w-6 border-2 duration-500 text-red-500`}></p>
           </button>
           {
-            <div className={`absolute transition-all duration-700 bg-amber-400 ${Click ? "w-full right-0" : "w-0 right-0"}`}>Pankaj</div>
+            <div className={`absolute transition-all duration-700 bg-amber-400 ${Click ? "w-full right-0" : "w-0 right-0"}`}></div>
           }
         </div>
       </div>

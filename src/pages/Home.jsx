@@ -49,23 +49,23 @@ const Home = () => {
                 <h3 data-aos="fade-right" className='text-xl text-white font-semibold tracking-[0.5px]'>FIND ME IN</h3>
                 <div  data-aos="fade-up" className="flex cursor-pointer gap-4">
                   <a href="https://www.facebook.com/" target='_blank'> 
-                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="src/assets/images/facebook.svg" alt="facebook" />
+                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="public/Images/facebook.svg" alt="facebook" />
                   </a>
                   <a href="https://www.instagram.com/accounts/login/?hl=en" target='_blank'>
-                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="src/assets/images/instagram.svg" alt="instagram" />
+                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="public/Images/instagram.svg" alt="instagram" />
                   </a>
                   <a href="https://www.linkedin.com/feed/" target='_blank'>
-                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="src/assets/images/linkedin.svg" alt="linkedin" />
+                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="public/Images/linkedin.svg" alt="linkedin" />
                   </a>
                 </div>
               </div>
               <div className="flex flex-col gap-5">
                 <h3 data-aos="fade-right" className='text-xl text-white font-semibold tracking-[0.5px]'>BEST SKILL ON</h3>
                 <div  data-aos="fade-up" className="flex gap-4 cursor-pointer">
-                  <img className='p-2 bg-[#1a1c1f] rounded-sm' src="src/assets/images/react.svg" alt="facebook" />
-                  <img className='p-2 bg-[#1a1c1f] rounded-sm' src="src/assets/images/nodejs.svg" alt="instagram" />
-                  <img className='p-2 bg-[#1a1c1f] rounded-sm' src="src/assets/images/tailwind.svg" alt="linkedin" />
-                  <img className='p-2 bg-[#1a1c1f] rounded-sm' src="src/assets/images/figma.svg" alt="linkedin" />
+                  <img className='p-2 bg-[#1a1c1f] rounded-sm' src="public/Images/react.svg" alt="facebook" />
+                  <img className='p-2 bg-[#1a1c1f] rounded-sm' src="public/Images/nodejs.svg" alt="instagram" />
+                  <img className='p-2 bg-[#1a1c1f] rounded-sm' src="public/Images/tailwind.svg" alt="linkedin" />
+                  <img className='p-2 bg-[#1a1c1f] rounded-sm' src="public/Images/figma.svg" alt="linkedin" />
                 </div>
               </div>
             </div>
@@ -73,7 +73,7 @@ const Home = () => {
 
           <div data-aos="fade-left" className="max-w-[300px] justify-items-center relative overflow-hidden lg:max-w-[500px] w-full lg:h-[680px] h-[400px] shadow-[0px_5px_10px_5px_rgba(0,0,0,0.25)]">
             <div className=" top-48 -left-64 w-full h-1  animate absolute"></div>
-            <img className='lg:h-[680px] w-[400px] h-[400px]' src="src/assets/images/HeroImg1.png" alt="HeroImg" />
+            <img className='lg:h-[680px] w-[400px] h-[400px]' src="public/Images/HeroImg1.png" alt="HeroImg" />
           </div>
         </div>
       </div>
