@@ -88,3 +88,98 @@
         width: 780px;
       }
   }
+
+
+
+/* responsive */
+
+  .animatedata6{
+   
+   width: 0;
+   
+      animation: dropDown00 1s ease-out forwards;
+        transition: all 1s ;
+    
+      
+       
+   }
+   @keyframes dropDown00 {
+    from {
+        width: 0px;
+      }
+      to {
+        width: 310px;
+      }
+  }
+  .animatedata7{
+   
+   width: 0;
+   
+      animation: dropDown01 1s ease-out forwards;
+        transition: all 1s ;
+    
+      
+       
+   }
+   @keyframes dropDown01 {
+    from {
+        width: 0px;
+      }
+      to {
+        width: 300px;
+      }
+  }
+  .animatedata8{
+   
+   width: 0;
+   
+      animation: dropDown02 1s ease-out forwards;
+        transition: all 1s ;
+    
+      
+       
+   }
+   @keyframes dropDown02 {
+    from {
+        width: 0px;
+      }
+      to {
+        width: 270px;
+      }
+  }
+  .animatedata9{
+   
+   width: 0;
+   
+      animation: dropDown03 1s ease-out forwards;
+        transition: all 1s ;
+    
+      
+       
+   }
+   @keyframes dropDown03 {
+    from {
+        width: 0px;
+      }
+      to {
+        width: 290px;
+      }
+  }
+  .animatedata00{
+   
+   width: 0;
+   
+      animation: dropDown04 1s ease-out forwards;
+        transition: all 1s ;
+    
+      
+       
+   }
+   @keyframes dropDown04 {
+    from {
+        width: 0px;
+      }
+      to {
+        width: 310px;
+      }
+  }
