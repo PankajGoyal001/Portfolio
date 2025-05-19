@@ -14,7 +14,7 @@ const Resume = () => {
                         <h5 className='text-sm text-rose-500 font-medium tracking-[0.5px]'>6+ MONTHS OF INTERNSHIP</h5>
                         <h1 className='text-5xl font-bold text-gray-300 tracking-[0.5px]'>My Resume</h1>
                     </div>
-                    <div className="grid grid-cols-3 mt-14 cursor-pointer ">
+                    <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-2 sm:gap-0 mt-14 cursor-pointer ">
                         {
                             ResumeData.resume.map((item, index) => (
                                 <div onClick={() => setClick(index)} key={index} className="bg-[#191b1e] rounded-xl text-center ">

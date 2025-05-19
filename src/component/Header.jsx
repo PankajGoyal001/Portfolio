@@ -63,12 +63,14 @@ const Header = () => {
               ))
             }
           </ul>
-          <button className={`grid p-5 bg-[#28303a] rounded-full ${Click ? "py-7" : ""} gap-1.5 md:hidden  cursor-pointer`} onClick={() => setClick(!Click)}>
+          <button className={`grid p-5 bg-[#28303a] rounded-full z-50  ${Click ? "py-7" : ""} gap-1.5 md:hidden  cursor-pointer`} onClick={() => setClick(!Click)}>
             <p className={`${Click ? "-rotate-45 absolute" : ""} w-6 border-2 duration-500 text-red-500`} ></p>
             <span className={`${Click ? "border-transparent " : ""} w-6 border-2 duration-500 text-red-500`} ></span>
-            <p className={`${Click ? "rotate-45 absolute" : ""} w-6 border-2 duration-500 text-red-500`}></p>
+            <p className={`${Click ? "rotate-45 absolute " : ""} w-6 border-2 duration-500 text-red-500`}></p>
           </button>
-          { }
+          {
+            <div className={`absolute transition-all duration-700 bg-amber-400 ${Click ? "w-full right-0" : "w-0 right-0"}`}>Pankaj</div>
+          }
         </div>
       </div>
     </>
