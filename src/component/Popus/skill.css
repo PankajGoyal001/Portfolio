@@ -10,10 +10,12 @@
    }
    @keyframes dropDown {
     from {
-        width: 0px;
+        max-width: 0px;
+        
       }
       to {
-        width: 790px;
+        max-width: 790px;
+        width: 100%;
       }
   }
   .animatedata2{
@@ -31,7 +33,8 @@
         width: 0px;
       }
       to {
-        width: 770px;
+        max-width: 770px;
+        width: 100%;
       }
   }
   .animatedata3{
@@ -49,7 +52,8 @@
         width: 0px;
       }
       to {
-        width: 650px;
+        max-width: 650px;
+        width: 100%;
       }
   }
   .animatedata4{
@@ -67,7 +71,8 @@
         width: 0px;
       }
       to {
-        width: 700px;
+        max-width: 700px;
+        width: 100%;
       }
   }
   .animatedata5{
@@ -85,101 +90,8 @@
         width: 0px;
       }
       to {
-        width: 780px;
+        max-width: 780px;
+        width: 100%;
       }
   }
 
-
-
-/* responsive */
-
-  .animatedata6{
-   
-   width: 0;
-   
-      animation: dropDown00 1s ease-out forwards;
-        transition: all 1s ;
-    
-      
-       
-   }
-   @keyframes dropDown00 {
-    from {
-        width: 0px;
-      }
-      to {
-        width: 310px;
-      }
-  }
-  .animatedata7{
-   
-   width: 0;
-   
-      animation: dropDown01 1s ease-out forwards;
-        transition: all 1s ;
-    
-      
-       
-   }
-   @keyframes dropDown01 {
-    from {
-        width: 0px;
-      }
-      to {
-        width: 300px;
-      }
-  }
-  .animatedata8{
-   
-   width: 0;
-   
-      animation: dropDown02 1s ease-out forwards;
-        transition: all 1s ;
-    
-      
-       
-   }
-   @keyframes dropDown02 {
-    from {
-        width: 0px;
-      }
-      to {
-        width: 270px;
-      }
-  }
-  .animatedata9{
-   
-   width: 0;
-   
-      animation: dropDown03 1s ease-out forwards;
-        transition: all 1s ;
-    
-      
-       
-   }
-   @keyframes dropDown03 {
-    from {
-        width: 0px;
-      }
-      to {
-        width: 290px;
-      }
-  }
-  .animatedata00{
-   
-   width: 0;
-   
-      animation: dropDown04 1s ease-out forwards;
-        transition: all 1s ;
-    
-      
-       
-   }
-   @keyframes dropDown04 {
-    from {
-        width: 0px;
-      }
-      to {
-        width: 310px;
-      }
-  }

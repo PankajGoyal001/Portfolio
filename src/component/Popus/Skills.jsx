@@ -15,7 +15,7 @@ const Skills = () => {
                             <p className="text-white text-base font-medium">99%</p>
                         </div>
                         <div className="mt-2.5 w-full bg-black rounded-xl h-2 relative">
-                            <span className='bg-gradient-to-r from-blue-600  via-pink-500 md:animatedata1 animatedata6 to-red-500 absolute top-0  h-2 rounded-xl'></span>
+                            <span className='bg-gradient-to-r from-blue-600  via-pink-500 animatedata1 to-red-500 absolute top-0  h-2 rounded-xl'></span>
                         </div>
                     </div>
 
@@ -25,7 +25,7 @@ const Skills = () => {
                             <p className="text-white text-base font-medium">97%</p>
                         </div>
                         <div className="mt-2.5 w-full bg-black rounded-xl h-2 relative">
-                            <span className='bg-gradient-to-r from-blue-600  via-pink-500  to-red-500 absolute top-0 md:animatedata2 animatedata7 h-2 rounded-xl '></span>
+                            <span className='bg-gradient-to-r from-blue-600  via-pink-500  to-red-500 absolute top-0 animatedata2  h-2 rounded-xl '></span>
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@ const Skills = () => {
                             <p className="text-white text-base font-medium">85%</p>
                         </div>
                         <div className="mt-2.5 w-full bg-black rounded-xl h-2 relative">
-                            <span className='bg-gradient-to-r from-blue-600  via-pink-500 md:animatedata3 animatedata8 to-red-500 absolute top-0  h-2 rounded-xl'></span>
+                            <span className='bg-gradient-to-r from-blue-600  via-pink-500 animatedata3 to-red-500 absolute top-0  h-2 rounded-xl'></span>
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@ const Skills = () => {
                             <p className="text-white text-base font-medium">90%</p>
                         </div>
                         <div className="mt-2.5 w-full bg-black rounded-xl h-2 relative">
-                            <span className='bg-gradient-to-r from-blue-600  via-pink-500 md:animatedata4 animatedata9  to-red-500 absolute top-0  h-2 rounded-xl'></span>
+                            <span className='bg-gradient-to-r from-blue-600  via-pink-500 animatedata4 to-red-500 absolute top-0  h-2 rounded-xl'></span>
                         </div>
                     </div>
 
@@ -55,7 +55,7 @@ const Skills = () => {
                             <p className="text-white text-base font-medium">98%</p>
                         </div>
                         <div className="mt-2.5 w-full bg-black rounded-xl h-2 relative">
-                            <span className='bg-gradient-to-r from-blue-600  via-pink-500 md:animatedata5 animatedata00  to-red-500 absolute top-0  h-2 rounded-xl'></span>
+                            <span className='bg-gradient-to-r from-blue-600  via-pink-500 animatedata5  to-red-500 absolute top-0  h-2 rounded-xl'></span>
                         </div>
                     </div>
                 </div>
