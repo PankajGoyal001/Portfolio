@@ -37,16 +37,16 @@ const Projects = () => {
               projectData.map((item, index) => (
                 <div key={index} className="flex md:p-10 p-5 overflow-hidden rounded-[10px] shadow-[0.1px_1px_5px_2px_#454d52] flex-col">
                   <div data-aos="zoom-in" className="overflow-hidden cursor-pointer rounded-[20px]  ">
-                    <img className='bg-[#32323e] transition-transform duration-500 ease-in-out hover:scale-[1.07] max-w-[373px] w-full' src={`public/Images/${item.Images}`} alt="images" />
+                    <img className='bg-[#32323e] transition-transform duration-500 ease-in-out hover:scale-[1.07] max-w-[373px] w-full' src={item.Images} alt="images" />
                   </div>
                   <div className="flex mt-5 items-center cursor-pointer justify-between ">
                     <h3 data-aos="fade-right" className='text-lg tracking-[0.5px] font-medium text-red-500 '>{item.title}</h3>
                     <div className="flex gap-4 ">
                       <a href={item.href} target='_blank'>
-                        <img data-aos="flip-up" className='max-w-10 active:scale-[0.8] duration-700 transition-transform ease-in-out w-full bg-white rounded-full p-2' src={`public/Images/${item.Img1}`} alt="Img1" />
+                        <img data-aos="flip-up" className='max-w-10 active:scale-[0.8] duration-700 transition-transform ease-in-out w-full bg-white rounded-full p-2' src={item.Img1} alt="Img1" />
                       </a>
                       <a href={item.href1} target='_blank'>
-                        <img data-aos="flip-up" data-aos-delay="200" className='max-w-10 active:scale-[0.8] duration-700 transition-transform ease-in-out w-full bg-white rounded-full p-2' src={`public/Images/${item.Img2}`} alt="Img2" />
+                        <img data-aos="flip-up" data-aos-delay="200" className='max-w-10 active:scale-[0.8] duration-700 transition-transform ease-in-out w-full bg-white rounded-full p-2' src={item.Img2} alt="Img2" />
                       </a>
                     </div>
                   </div>

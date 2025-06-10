@@ -1,14 +1,14 @@
 [
     {
         "heading":"Quick Link",
-        "text1":"About",
-        "path":"/about",
-        "text2":"Portfolio",
-        "path1":"/portfolio",
+        "text1":"Portfolio",
+        "path":"/",
+        "text2":"Projects",
+        "path1":"/project",
         "text3":"Resume",
-        "paht2":"resume",
+        "paht2":"/resume",
         "text4":"contact",
-        "path3":"contact"
+        "path3":"/contact"
     },
     {
         "heading":"RESOURCES",

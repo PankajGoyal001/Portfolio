@@ -1,47 +1,47 @@
 [
     {
-        "Images":"BuyNowImg.png",
+        "Images":"public/Images/BuyNowImg.png",
         "title":"BuyNow Project",
         "href":"https://github.com/PankajGoyal001/buynow",
-        "Img1":"github.svg",
+        "Img1":"public/Images/github.svg",
         "href1":"https://dainty-maamoul-adaeb4.netlify.app/",
-        "Img2":"netlify.svg",
+        "Img2":"public/Images/netlify.svg",
         "Text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolor iure sapiente recusandae laudantium reiciendis, perferendis non, libero rem ex expedita quia voluptate, excepturi itaque! Modi expedita odio dolore facilis vitae quisquam !"
     },
     {
-        "Images":"FashionPage.png",
+        "Images":"public/Images/FashionPage.png",
         "title":"FashionCart Project",
         "href":"https://github.com/PankajGoyal001/FashionPage",
-        "Img1":"github.svg",
+        "Img1":"public/Images/github.svg",
         "href1":"https://dainty-maamoul-adaeb4.netlify.app/",
-        "Img2":"netlify.svg",
+        "Img2":"public/Images/netlify.svg",
         "Text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolor iure sapiente recusandae laudantium reiciendis, perferendis non, libero rem ex expedita quia voluptate, excepturi itaque! Modi expedita odio dolore facilis vitae quisquam !"
     },
     {
-        "Images":"Verlin.png",
+        "Images":"public/Images/Verlin.png",
         "title":"verlein Project",
         "href":"https://github.com/PankajGoyal001/verlein",
-        "Img1":"github.svg",
+        "Img1":"public/Images/github.svg",
         "href1":"https://pankajgoyal001.github.io/verlein/",
-        "Img2":"netlify.svg",
+        "Img2":"public/Images/netlify.svg",
         "Text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolor iure sapiente recusandae laudantium reiciendis, perferendis non, libero rem ex expedita quia voluptate, excepturi itaque! Modi expedita odio dolore facilis vitae quisquam !"
     },
      {
-        "Images":"coindisk.png",
+        "Images":"public/Images/coindisk.png",
         "title":"coindisk Project",
         "href":"https://github.com/PankajGoyal001/coindisk",
-        "Img1":"github.svg",
+        "Img1":"public/Images/github.svg",
         "href1":"https://pankajgoyal001.github.io/coindisk/",
-        "Img2":"netlify.svg",
+        "Img2":"public/Images/netlify.svg",
         "Text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolor iure sapiente recusandae laudantium reiciendis, perferendis non, libero rem ex expedita quia voluptate, excepturi itaque! Modi expedita odio dolore facilis vitae quisquam !"
     },
      {
-        "Images":"E_commerce.png",
+        "Images":"public/Images/E_commerce.png",
         "title":"coindisk Project",
         "href":"https://github.com/PankajGoyal001/coindisk",
-        "Img1":"github.svg",
+        "Img1":"public/Images/github.svg",
         "href1":"https://pankajgoyal001.github.io/coindisk/",
-        "Img2":"netlify.svg",
+        "Img2":"public/Images/netlify.svg",
         "Text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolor iure sapiente recusandae laudantium reiciendis, perferendis non, libero rem ex expedita quia voluptate, excepturi itaque! Modi expedita odio dolore facilis vitae quisquam !"
     }
 ]
