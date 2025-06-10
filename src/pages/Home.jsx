@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { Cursor, useTypewriter, } from 'react-simple-typewriter';
+import HeroImg1  from "../../public/Images/HeroImg1.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Home.css"
@@ -73,7 +74,7 @@ const Home = () => {
 
           <div data-aos="fade-left" className="max-w-[300px] justify-items-center relative overflow-hidden lg:max-w-[500px] w-full lg:h-[680px] h-[400px] shadow-[0px_5px_10px_5px_rgba(0,0,0,0.25)]">
             <div className=" top-48 -left-64 w-full h-1  animate absolute"></div>
-            <img className='lg:h-[680px] w-[400px] h-[400px]' src="public/Images/HeroImg1.png" alt="HeroImg" />
+            <img className='lg:h-[680px] w-[400px] h-[400px]' src={HeroImg1} alt="HeroImg" />
           </div>
         </div>
       </div>
