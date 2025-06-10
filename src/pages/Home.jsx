@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react'
 import { Cursor, useTypewriter, } from 'react-simple-typewriter';
 import HeroImg1  from "../../public/Images/HeroImg1.png";
-import facebook  from "../../public/Images/facebook.svg";
-import linkedin  from "../../public/Images/linkedin.svg";
-import instagram  from "../../public/Images/instagram.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Home.css"
@@ -53,13 +50,13 @@ const Home = () => {
                 <h3 data-aos="fade-right" className='text-xl text-white font-semibold tracking-[0.5px]'>FIND ME IN</h3>
                 <div  data-aos="fade-up" className="flex cursor-pointer gap-4">
                   <a href="https://www.facebook.com/" target='_blank'> 
-                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src={facebook} alt="facebook" />
+                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="public/Images/facebook.svg" alt="facebook" />
                   </a>
                   <a href="https://www.instagram.com/accounts/login/?hl=en" target='_blank'>
-                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src={instagram} alt="instagram" />
+                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="public/Images/instagram.svg" alt="instagram" />
                   </a>
                   <a href="https://www.linkedin.com/feed/" target='_blank'>
-                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src={linkedin} alt="linkedin" />
+                    <img className='p-2 bg-[#1a1c1f] rounded-sm' src="public/Images/linkedin.svg" alt="linkedin" />
                   </a>
                 </div>
               </div>
