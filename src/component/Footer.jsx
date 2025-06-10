@@ -2,9 +2,6 @@ import React, { useEffect } from 'react'
 import logo from "../../public/Images/logo.jpg";
 import footerData from "./Json/footer.json";
 import { Link } from 'react-router-dom';
-import facebook from "../../public/images/facebook.svg";
-import instagram from "../../public/images/instagram.svg";
-import linkedin from "../../public/images/linkedin.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -40,9 +37,9 @@ const Footer = () => {
                             <h2 data-aos="fade-right" className='text-amber-50 sm:text-3xl text-2xl font-semibold '>PANKAJ</h2>
                         </div>
                         <div  data-aos="fade-right" className="flex items-center relative gap-3 sm:gap-5">
-                            <img className='sm:max-w-16 max-w-12 bg-[#1a1c1f] rounded-sm w-full' src={facebook} alt="facebook" />
-                            <img className='sm:max-w-16 max-w-12 bg-[#1a1c1f] rounded-sm w-full' src={instagram} alt="instagram" />
-                            <img className='sm:max-w-16 max-w-12 bg-[#1a1c1f] rounded-sm w-full' src={linkedin} alt="linkedin" />
+                            <img className='sm:max-w-16 max-w-12 bg-[#1a1c1f] rounded-sm w-full' src="public/Images/facebook.svg" alt="facebook" />
+                            <img className='sm:max-w-16 max-w-12 bg-[#1a1c1f] rounded-sm w-full' src="public/Images/instagram.svg" alt="instagram" />
+                            <img className='sm:max-w-16 max-w-12 bg-[#1a1c1f] rounded-sm w-full' src="public/Images/linkedin.svg" alt="linkedin" />
                         </div>
                     </div>
                     {
