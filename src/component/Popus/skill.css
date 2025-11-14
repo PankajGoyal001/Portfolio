@@ -1,0 +1,92 @@
+.animatedata1{
+   width: 0;
+   
+      animation: dropDown 1s ease-out forwards;
+        transition: all 1s ;
+       
+   }
+   @keyframes dropDown {
+    from {
+        max-width: 0px;
+        
+      }
+      to {
+        max-width: 790px;
+        width: 100%;
+      }
+  }
+  .animatedata2{
+   
+   width: 0;
+   
+      animation: dropDown1 1s ease-out forwards;
+        transition: all 1s ;
+    
+   }
+   @keyframes dropDown1 {
+    from {
+        width: 0px;
+      }
+      to {
+        max-width: 770px;
+        width: 100%;
+      }
+  }
+  .animatedata3{
+   
+   width: 0;
+   
+      animation: dropDown2 1s ease-out forwards;
+        transition: all 1s ;
+    
+      
+       
+   }
+   @keyframes dropDown2 {
+    from {
+        width: 0px;
+      }
+      to {
+        max-width: 650px;
+        width: 100%;
+      }
+  }
+  .animatedata4{
+   
+   width: 0;
+   
+      animation: dropDown3 1s ease-out forwards;
+        transition: all 1s ;
+    
+      
+       
+   }
+   @keyframes dropDown3 {
+    from {
+        width: 0px;
+      }
+      to {
+        max-width: 700px;
+        width: 100%;
+      }
+  }
+  .animatedata5{
+   
+   width: 0;
+   
+      animation: dropDown4 1s ease-out forwards;
+        transition: all 1s ;
+    
+      
+       
+   }
+   @keyframes dropDown4 {
+    from {
+        width: 0px;
+      }
+      to {
+        max-width: 780px;
+        width: 100%;
+      }
+  }
+

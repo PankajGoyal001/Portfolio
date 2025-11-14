@@ -1,0 +1,35 @@
+[
+    {
+        "heading":"Quick Link",
+        "text1":"Portfolio",
+        "path":"/",
+        "text2":"Projects",
+        "path1":"/project",
+        "text3":"Resume",
+        "paht2":"/resume",
+        "text4":"contact",
+        "path3":"/contact"
+    },
+    {
+        "heading":"RESOURCES",
+        "text1":"Authentication",
+        "path":"/authentication",
+        "text2":"System Status",
+        "path1":"/system",
+        "text3":"Terms of Service",
+        "paht2":"/termOfServices",
+        "text4":"Over Right",
+        "path3":"/overRight"
+    },
+    {
+        "heading":"DEVELOPERS",
+        "text1":"Documentation",
+        "path":"/documentation",
+        "text2":"Api Reference",
+        "path1":"/api",
+        "text3":"Support",
+        "paht2":"/support",
+        "text4":"Open Source",
+        "path3":"/openSource"
+    }
+]

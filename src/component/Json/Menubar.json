@@ -1,0 +1,18 @@
+[
+    {
+        "menu":"HOME",
+        "path":"/"
+    },
+    {
+        "menu":"Projects",
+        "path":"/projects"
+    },
+    {
+        "menu":"Resume",
+        "path":"/resume"
+    },
+    {
+        "menu":"Contact",
+        "path":"/contact"
+    }
+]

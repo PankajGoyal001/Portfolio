@@ -1,0 +1,18 @@
+.animate {
+  width: 1000px;
+  height: 1px;
+  /* background-color: ; */
+  filter: blur(10px);
+  animation: dropDown5 2s ease-out forwards;
+  transition: all 2s;
+  box-shadow: 0px 0px 15px 8pxz rgb(232, 228, 228);
+  rotate: -45deg;
+}
+@keyframes dropDown5 {
+  from {
+    transform: translateY(-200px);
+  }
+  to {
+    transform: translateY(840px);
+  }
+}
