@@ -16,7 +16,7 @@ const Header = () => {
       "href": "/project"
     },
     {
-      "menu": "Resume",
+      "menu": "About",
       "href": "/resume"
     },
     {

@@ -16,7 +16,7 @@ localStorage.setItem("value" , Click)
                 <div className="container">
                     <div className="flex flex-col gap-4 items-center">
                         <h5 className='text-sm text-rose-500 font-medium tracking-[0.5px]'>6+ MONTHS OF INTERNSHIP</h5>
-                        <h1 className='text-5xl font-bold text-gray-300 tracking-[0.5px]'>My Resume</h1>
+                        <h1 className='text-5xl font-bold text-gray-300 tracking-[0.5px]'>My Information</h1>
                     </div>
                     <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-2 md:gap-0 mt-14 cursor-pointer ">
                         {
